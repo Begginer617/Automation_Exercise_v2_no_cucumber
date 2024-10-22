@@ -1,33 +1,22 @@
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.junit.Before;
-import org.junit.After;
-import org.junit.Test;
 
 public class BaseTest {
-    protected WebDriver driver;
+    private WebDriver driver;
 
-    @Before
-    public void setUp() {
-        // Ensure that WebDriverManager downloads and sets up the correct ChromeDriver version
-        WebDriverManager.chromedriver().setup();
-
-        // Initialize the ChromeDriver
-        driver = new ChromeDriver();
+    // Initialize the WebDriver in your BaseTest constructor or a setup method
+    public BaseTest() {
+        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver"); // Update this path
+        driver = new ChromeDriver(); // Initialize the WebDriver
     }
 
-    @Test
-    public void checkTitle() {
-        // Ensure driver is initialized before using it
-        driver.get("https://automationexercise.com/");
-
-        // Your test logic here...
+    // Getter method for driver
+    protected WebDriver getDriver() {
+        return driver;
     }
 
-    @After
+    // Optionally, a method to clean up after tests
     public void tearDown() {
-        // Quit the driver after test execution
         if (driver != null) {
             driver.quit();
         }
