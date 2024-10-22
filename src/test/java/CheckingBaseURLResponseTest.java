@@ -1,17 +1,14 @@
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class CheckingBaseURLResponseTest extends BaseTest{
+public class CheckingBaseURLResponseTest extends BaseTest {
 
     @Test
-    public void checkTtile(){
+    public void checkTitle() {
         driver.get("https://automationexercise.com/");
-        String url = driver.getCurrentUrl();
         String title = driver.getTitle();
-        String expectedTtile = "Automation Exercise";
+        String expectedTitle = "Automation Exercise";
 
-        Assert.assertEquals(title,expectedTtile);
-
+        assertEquals(expectedTitle, title);
     }
-
 }
