@@ -1,12 +1,14 @@
+import org.junit.jupiter.api.AfterEach;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BaseTest {
-    private WebDriver driver;
+    public WebDriver driver;
+
 
     // Initialize the WebDriver in your BaseTest constructor or a setup method
     public BaseTest() {
-        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver"); // Update this path
+        System.setProperty("webdriver.chrome.driver", "C:/Users/Miłosz Skorupski/Documents/Automatyzacja Main Folder/chromedriver-win64"); // Update this path
         driver = new ChromeDriver(); // Initialize the WebDriver
     }
 
@@ -15,10 +17,13 @@ public class BaseTest {
         return driver;
     }
 
-    // Optionally, a method to clean up after tests
+    @AfterEach
     public void tearDown() {
-        if (driver != null) {
-            driver.quit();
+        if (getDriver() != null) {
+            getDriver().quit();
         }
     }
+
+
+
 }
