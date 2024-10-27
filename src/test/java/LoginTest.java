@@ -7,7 +7,8 @@ public class LoginTest extends BaseTest {
     @Test
     public void successfulLogging(){
         driver.get("https://automationexercise.com/login");
-        WebElement usernameInput = driver.findElement(By.tagName("login-email"));
+        WebElement usernameField = driver.findElement(By.name("username"));
+        WebElement passwordField = driver.findElement(By.name("password"));
     }
 
 

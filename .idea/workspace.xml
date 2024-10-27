@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d8931571-1911-41a1-ac54-ed71d71f2cd9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CheckingBaseURLResponseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckingBaseURLResponseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" afterDir="false" />
     </list>
@@ -49,60 +51,61 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.CheckingBaseURLResponseTest.checkTitle (1)">
-    <configuration name="BaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Exercise_v2_no_cucumber" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BaseTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BaseTest.checkTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Exercise_v2_no_cucumber" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BaseTest" />
-      <option name="METHOD_NAME" value="checkTitle" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckingBaseURLResponseTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Exercise_v2_no_cucumber" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckingBaseURLResponseTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckingBaseURLResponseTest.checkTitle (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Exercise_v2_no_cucumber" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckingBaseURLResponseTest" />
-      <option name="METHOD_NAME" value="checkTitle" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckingBaseURLResponseTest.checkTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test-ui-museng" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckingBaseURLResponseTest" />
-      <option name="METHOD_NAME" value="checkTitle" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LoginTest.successfulLogging">
     <configuration name="CheckingBaseURLResponseTest.checkTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Automation_Exercise_v2_no_cucumber" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CheckingBaseURLResponseTest" />
       <option name="METHOD_NAME" value="checkTitle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckingBaseURLResponseTest.shouldReturnExpectedTitle_whenNavigatingToHomePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Exercise_v2_no_cucumber" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CheckingBaseURLResponseTest" />
+      <option name="METHOD_NAME" value="shouldReturnExpectedTitle_whenNavigatingToHomePage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.successfulLogging" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Exercise_v2_no_cucumber" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="METHOD_NAME" value="successfulLogging" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Exercise_v2_no_cucumber" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTest.registrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Exercise_v2_no_cucumber" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
+      <option name="METHOD_NAME" value="registrationTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTest.setUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Exercise_v2_no_cucumber" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
+      <option name="METHOD_NAME" value="setUp" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CheckingBaseURLResponseTest.checkTitle (1)" />
-        <item itemvalue="JUnit.CheckingBaseURLResponseTest (1)" />
-        <item itemvalue="JUnit.CheckingBaseURLResponseTest.checkTitle" />
-        <item itemvalue="JUnit.BaseTest" />
-        <item itemvalue="JUnit.BaseTest.checkTitle" />
+        <item itemvalue="JUnit.LoginTest.successfulLogging" />
+        <item itemvalue="JUnit.CheckingBaseURLResponseTest.shouldReturnExpectedTitle_whenNavigatingToHomePage" />
+        <item itemvalue="JUnit.RegistrationTest.registrationTest" />
+        <item itemvalue="JUnit.RegistrationTest" />
+        <item itemvalue="JUnit.RegistrationTest.setUp" />
       </list>
     </recent_temporary>
   </component>
@@ -128,5 +131,15 @@
       <updated>1729450221752</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
