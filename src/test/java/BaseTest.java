@@ -5,7 +5,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class BaseTest {
     public WebDriver driver;
 
-
     // Initialize the WebDriver in your BaseTest constructor or a setup method
     public BaseTest() {
         System.setProperty("webdriver.chrome.driver", "C:/Users/Miłosz Skorupski/Documents/Automatyzacja Main Folder/chromedriver-win64"); // Update this path
@@ -13,7 +12,7 @@ public class BaseTest {
     }
 
     // Getter method for driver
-    protected WebDriver getDriver() {
+    public WebDriver getDriver() {
         return driver;
     }
 
@@ -23,7 +22,5 @@ public class BaseTest {
             getDriver().quit();
         }
     }
-
-
 
 }
