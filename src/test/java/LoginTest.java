@@ -6,8 +6,8 @@ public class LoginTest extends BaseTest {
 
     @Test
     public void successfulLogging() {
-        // Navigate to the login page
-        driver.get("https://automationexercise.com/login");
+
+        setUp();
 
         // Find the username and password input fields
         WebElement usernameField = driver.findElement(By.name("email")); // Use the correct name attribute for the email field
@@ -19,6 +19,5 @@ public class LoginTest extends BaseTest {
 
         // Submit the form
         passwordField.submit();
-
     }
 }

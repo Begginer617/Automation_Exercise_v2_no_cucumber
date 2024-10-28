@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d8931571-1911-41a1-ac54-ed71d71f2cd9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,18 +36,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Miłosz Skorupski/Documents/Automatyzacja Main Folder/Automation2/Automation_Exercise_v2_no_cucumber&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.4200627&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Miłosz Skorupski/Documents/Automatyzacja Main Folder/Automation2/Automation_Exercise_v2_no_cucumber",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4200627",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="JUnit.LoginTest.successfulLogging">
     <configuration name="CheckingBaseURLResponseTest.checkTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Automation_Exercise_v2_no_cucumber" />
@@ -110,8 +112,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LoginTest.successfulLogging" />
-        <item itemvalue="JUnit.CheckingBaseURLResponseTest.shouldReturnExpectedTitle_whenNavigatingToHomePage" />
         <item itemvalue="JUnit.RegistrationTest.registrationTest" />
+        <item itemvalue="JUnit.CheckingBaseURLResponseTest.shouldReturnExpectedTitle_whenNavigatingToHomePage" />
         <item itemvalue="JUnit.RegistrationTest" />
         <item itemvalue="JUnit.RegistrationTest.setUp" />
       </list>

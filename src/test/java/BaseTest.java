@@ -9,14 +9,8 @@ public class BaseTest {
 
     @BeforeEach
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:/Users/Miłosz Skorupski/Documents/Automatyzacja Main Folder/chromedriver-win64.exe");
-
+        System.setProperty("webdriver.chrome.driver", "C://Users//Miłosz Skorupski//Documents//Automatyzacja Main Folder//chromedriver-win64//chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
-        // Example of options (uncomment as needed)
-        // options.addArguments("--headless"); // Run in headless mode
-        // options.addArguments("--disable-notifications"); // Disable notifications
-        // options.addArguments("--start-maximized"); // Start maximized
-
         driver = new ChromeDriver(options);
     }
 
