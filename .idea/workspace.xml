@@ -49,23 +49,22 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.LoginTest.successfulLogging">
-    <configuration name="CheckingBaseURLResponseTest.checkTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Exercise_v2_no_cucumber" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckingBaseURLResponseTest" />
-      <option name="METHOD_NAME" value="checkTitle" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LoginTest">
     <configuration name="CheckingBaseURLResponseTest.shouldReturnExpectedTitle_whenNavigatingToHomePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Automation_Exercise_v2_no_cucumber" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CheckingBaseURLResponseTest" />
       <option name="METHOD_NAME" value="shouldReturnExpectedTitle_whenNavigatingToHomePage" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Exercise_v2_no_cucumber" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,23 +98,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTest.setUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Exercise_v2_no_cucumber" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
-      <option name="METHOD_NAME" value="setUp" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginTest" />
         <item itemvalue="JUnit.LoginTest.successfulLogging" />
         <item itemvalue="JUnit.RegistrationTest.registrationTest" />
         <item itemvalue="JUnit.CheckingBaseURLResponseTest.shouldReturnExpectedTitle_whenNavigatingToHomePage" />
         <item itemvalue="JUnit.RegistrationTest" />
-        <item itemvalue="JUnit.RegistrationTest.setUp" />
       </list>
     </recent_temporary>
   </component>
